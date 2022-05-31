@@ -1,4 +1,4 @@
-package com.example.cs.data
+package com.example.cs.domain
 
 import com.example.cs.domain.GitUserEntity
 import io.reactivex.rxjava3.core.Single

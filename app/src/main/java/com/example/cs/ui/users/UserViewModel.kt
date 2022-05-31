@@ -3,7 +3,7 @@ package com.example.cs.ui.users
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.cs.data.GitUserRep
+import com.example.cs.domain.GitUserRep
 import com.example.cs.domain.GitUserEntity
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.subscribeBy

@@ -3,7 +3,7 @@ package com.example.cs
 import android.app.Application
 import android.content.Context
 import androidx.fragment.app.Fragment
-import com.example.cs.data.GitUserRep
+import com.example.cs.domain.GitUserRep
 import com.example.cs.data.retrofit.RetrofitUsersRepoImpl
 
 //создаем app для централизованного доступа к данным (чтобы не создавать реп в каждом актививи и фрагменте)

@@ -2,7 +2,7 @@ package com.example.cs.ui.users
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.cs.data.GitUserRep
+import com.example.cs.domain.GitUserRep
 
 class UserViewModelFactory(private val repo: GitUserRep) : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
