@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_wight">130dp</dimen>
+    <dimen name="image_height">130dp</dimen>
+    <dimen name="content_height">200dp</dimen>
+    <dimen name="avatar_size">100dp</dimen>
+    <dimen name="Login_text_size">24sp</dimen>
+    <dimen name="Margin_start">10dp</dimen>
+    <dimen name="http_text_size">16sp</dimen>
+    <dimen name="padding_size">20dp</dimen>
+</resources>

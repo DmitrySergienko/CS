@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottom_local"
+        android:icon="@drawable/ic_baseline_accessibility_24"
+        android:title="@string/profile"
+        app:tooltipText="Description" />
+
+    <item
+        android:id="@+id/bottom_git"
+        android:icon="@drawable/ic_baseline_accessibility_24"
+        android:title="@string/settings"
+        app:tooltipText="Description" />
+
+</menu>

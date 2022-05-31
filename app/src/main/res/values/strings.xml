@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">CS</string>
+    <string name="app_name">Gitapp</string>
+    <string name="settings">Git Users</string>
+    <string name="repo">Repo Users</string>
+    <string name="about">About</string>
+    <string name="Settings">Here will be list of users from GIT HUB</string>
+    <string name="About">About fragment</string>
+    <string name="Main">Main fragment</string>
+    <string name="Name">Profile name</string>
+    <string name="Html">HTML</string>
+    <string name="profile">Local Users</string>
+    <string name="User_name">ENTER</string>
+    <string name="any">JakeWharton</string>
+    <string name="Email">html</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
