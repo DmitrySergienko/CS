@@ -17,7 +17,7 @@ interface GitHubApi {
    */
 
     @GET("users/{user}/repos")
-    fun listRepos(@Path("user") user: String?): Deferred<List<GitUserEntity>>
+   fun listRepos(@Path("user") user: String?): Deferred<List<GitUserEntity>>
 
     @GET("users")
     fun accountList(): Deferred<List<GitUserEntity>>

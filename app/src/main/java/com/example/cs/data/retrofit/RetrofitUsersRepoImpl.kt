@@ -28,9 +28,10 @@ class RetrofitUsersRepoImpl : GitUserRep {
     private val api: GitHubApi = retrofit.create(GitHubApi::class.java)
 
 
-override fun getUsers(username: String): Single<List<GitUserEntity>> {
+override suspend fun getUsers(username: String): Single<List<GitUserEntity>> {
     return Single.create { emitter ->
         api.accountList()
+            .await()
             .enqueue(object : Callback<List<GitUserEntity>> {
                 override fun onResponse(
                     call: Call<List<GitUserEntity>>,
@@ -46,7 +47,7 @@ override fun getUsers(username: String): Single<List<GitUserEntity>> {
     }
 }
 
-override fun getUsersRep(username: String): Single<List<GitUserEntity>> {
+override suspend fun getUsersRep(username: String): Single<List<GitUserEntity>> {
     return Single.create { emitter ->
         api.listRepos(username)
             .enqueue(object : Callback<List<GitUserEntity>> {
